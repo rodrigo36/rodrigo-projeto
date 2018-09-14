@@ -1,0 +1,332 @@
+/*
+* 
+* @Rodrigo Rocha Giuntini
+*
+*/
+
+/* ========================= layout ======================== */
+html, body, .capa {
+    height: 100%;
+}
+
+body {
+    background: url('imagens/img-6.jpg'),
+                url('imagens/img-6.jpg'),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+/* -- Barra de navegação -- */
+.img-logo {
+    height: 40px;
+    width: 132px;
+    display: block;
+    background: url('imagens/spotify.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+.navbar-brand{
+    padding: 5px 15px;
+}
+
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #9bf0e1;
+}
+
+/* -- Imagem de capa -- */
+.capa {
+    display: table;
+    width: 100%;
+}
+ 
+ 
+.texto-capa {
+    
+   
+    text-align: center;
+    color: white;
+    display: table-cell;
+
+   
+}
+
+/* -- Botoes -- */
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo {
+    background: #7c25f8;
+}
+.btn-roxo:hover {
+    background-color: #6207e3;
+    color: white;
+}
+
+.btn-branco {
+    border: 2px solid white;
+    }
+    .video-home{    
+  
+}
+    
+}
+.btn-branco:hover {
+    background-color: white;
+    color: black;
+}
+/* ========================= Tipografia ======================== */
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+}
+
+/* ------------------ slide-home---------------------*/
+/* Carousel base class */
+.carousel {
+
+  height: 900px;
+
+
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 900px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 900px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 50px;
+    line-height: 9.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+
+.caixa{
+    
+     width: 600px;
+     height: 400px;
+     margin:  220px;
+    float: left;
+
+}
+
+    .caixa2{
+    
+     width: 600px;
+     height: 400px;
+     margin:  220px;
+     float right;
+
+    
+{
+
+    /* ---------------------------- produtos --------------------------- */
+
+
+    * {
+    -webkit-box-sizing: border-box;
+}
+body {
+    font-size: 100%;
+    background-color: #7d7e7d;
+    background-image: url(http://subtlepatterns.com/patterns/tweed.png);
+}
+section {
+    float: left;
+    margin-right: 20px;
+    width:280px;
+    height: 200px;
+    background: url(http://lorempixel.com/240/200/business/) #249ed7;
+    background-size: 280px 200px;
+    box-shadow: 0 4px 15px -4px #000;
+    margin-top: 20px;
+}
+section:hover {  box-shadow: 0 4px 15px -4px #fff; }
+ {
+    background: #48b1e1;
+    width: 170px;
+    height: 200px;
+    float: right;
+    padding: 0 10px 0 20px;
+    position: relative;
+}
+ {
+    font-size: 1.5em;
+    color: #eee;
+    font-family:'Raleway', sans-serif;
+    font-weight: 100;
+}
+p {
+    background:rgba(255, 255, 255, .2);
+    margin:35px 0 0 60px;
+    width:90px;
+    color: #eee;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: .7em;
+    padding: 8px 0px 8px 24px;
+    border-radius: 50px 0 0 0px;
+    position:absolute;
+    bottom:0;
+    cursor:pointer;
+}
+.orange {
+    background: url(http://lorempixel.com/240/200/city/) -90px 0;
+    background-size: 280px 200px;
+}
+.orange div { background: #e76f50; }
+.green {
+    background: url(http://lorempixel.com/240/200/nature/) -90px 0;
+    background-size: 280px 200px;
+}
+.green div { background: #73C27D; }
+.red {
+    background: url(http://lorempixel.com/240/200/transport/) -90px 0;
+    background-size: 280px 200px;
+}
+.red div { background: #c9112d; }
+
+
+.slide-texto{
+
+    font-size: 90px;
+    font-family: 10px;
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+} .video-empreedimento{
+  align-items: center;
+
+  }
+
+.texto-capa2{
+    margin:700px;
+    text-align: center;
+    color: white;
+    display: table-cell;
+}
+
+.capa2{
+    display: table;
+    width: 100%;
+}
+ 
+
+ .black{
+  color: black;
+
+ }
